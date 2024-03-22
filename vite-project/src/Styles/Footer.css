@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 8vh;
+    background: rgb(137, 10, 210);
+    color: aliceblue;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,50 @@
+    .results {
+        min-height: 40vh;
+        width: 90vw;
+    }
+
+    .title_results {
+        color: rgb(137, 10, 210); 
+        text-align: start; 
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .section_all_results {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .section_individual_result { 
+        border: 0.5px solid rgb(137, 10, 210);
+        width: 200px;
+        padding: 10px;
+        border-radius: 15px;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+    }
+
+    .div_buttons_results {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .modify_results { 
+        text-decoration: none;
+        color: #ffffff;
+        background-color: rgb(171, 15, 255);
+        width: 80px;
+    }
+
+    .delete_results {
+        cursor: pointer; 
+        background-color: rgb(132, 21, 196);
+        color: #fff;
+        width: 80px;
+    }
